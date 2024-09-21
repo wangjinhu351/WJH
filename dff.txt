@@ -1363,7 +1363,7 @@
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
   ],
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "warningText": "欢迎各位兄弟姐妹，六一快乐！ 欢迎入群，详见公众号入群须知！
+  "warningText": "王錿欢迎各位兄弟姐妹，永远快乐！
 📢接口软件永远免费 
 📢长期维护切勿贩卖",
 
