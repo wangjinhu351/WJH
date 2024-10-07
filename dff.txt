@@ -1,116 +1,476 @@
-{
-  "urls": [
-    {
-      "url": "http://www.饭太硬.com/tv",
-      "name": " 無止境的風┃饭太硬线路"
-    },
-    {
-      "url": "http://肥猫.com/",
-      "name": " 無止境的風┃肥猫线路"
-    },
-    {
-      "url": "http://我不是.摸鱼儿.top",
-      "name": " 無止境的風┃摸鱼线路"
-    },
-    {
-      "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
-      "name": " 無止境的風┃多多网盘线路"
-    },
-    {
-      "url": "http://ok321.top/ok",
-      "name": " 無止境的風┃OK线路"
-    },
-    {
-      "url": "http://tvbox.王二小放牛娃.top",
-      "name": " 無止境的風┃王二小线路"
-    },
-    {
-      "url": "https://9280.kstore.space/wex.json",
-      "name": " 無止境的風┃王二小线路（备用）"
-    },
-    {
-      "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
-      "name": " 無止境的風┃道长线路"
-    },
-    {
-      "url": "http://home.jundie.top:81/top98.json",
-      "name": " 無止境的風┃俊佬线路"
-    },
-    {
-      "url": "https://100km.top/0",
-      "name": " 無止境的風┃Ray明线路"
-    },
-    {
-      "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json",
-      "name": " 無止境的風┃D佬魔改线路"
-    },
-    {
-      "url": "https://cn.kstore.space/download/2883/0110.txt",
-      "name": " 無止境的風┃蚂蚁线路"
-    },
-    {
-      "url": "https://xn--tkh-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌tkh",
-      "name": " 無止境的風┃欧歌线路"
-    },
-    {
-      "url": "http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0",
-      "name": " 無止境的風┃吾爱线路"
-    },
-    {
-      "url": "http://itvbox.cc/云星日记",
-      "name": " 無止境的風┃云星日记线路"
-    },
-    {
-      "url": "https://szyyds.cn/tv/x.json",
-      "name": " 無止境的風┃小马线路"
-    },
-    {
-      "url": "https://yydf.540734621.xyz/QQ/yydf2024.json",
-      "name": " 無止境的風┃业余打发线路"
-    },
-    {
-      "url": "https://www.gitlink.org.cn/attachments/entries/get_file?download_url=https://www.gitlink.org.cn/api/guot55/yg/raw/pg%2Fjsm.json?ref=main",
-      "name": " 無止境的風┃月光宝盒线路"
-    },
-    {
-      "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/config.json?ref=master",
-      "name": " 無止境的風┃茶余线路"
-    },
-    {
-      "url": "https://gitlink.org.cn/api/hailin/aishangtv5/raw/tvbox/aishang.json?ref=master",
-      "name": " 無止境的風┃春盈天下线路"
-    },
-    {
-      "url": "https://cdn05042023.gitlink.org.cn/wykj/ys/raw/branch/master/ya.json",
-      "name": " 無止境的風┃无意云线路"
-    },
-    {
-      "url": "https://龙伊.top",
-      "name": " 無止境的風┃龙伊线路"
-    },
-    {
-      "url": "https://notabug.org/qizhen15800/My9394/raw/master/%e4%b8%8d%e8%89%af%e5%b8%85.json",
-      "name": " 無止境的風┃不良帅线路"
-    },
-    {
-      "url": "https://6758.kstore.space/1.json",
-      "name": " 無止境的風┃青龙线路"
-    },
-    {
-      "url": "http://cdn.qiaoji8.com/tvbox.json",
-      "name": " 無止境的風┃巧计线路"
-    },
-    {
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
-      "name": " 無止境的風┃潇洒线路"
-    },
-    {
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-      "name": " 無止境的風┃高天流云线路"
-    },
-    {
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-      "name": " 無止境的風┃香雅晴线路"
-    }
-  ]
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TV接口</title>
+        <script src="js/jquery.min.js"></script>
+        <style>
+        @media screen and (min-width:1200px){
+            /*li{width:calc(20% - 5px)}*/
+        }
+        @media screen and (min-width:90px) and (max-width:1200px){
+            li{width:calc(20% - 5px) !important;}
+        }
+        @media screen and (min-width:600px) and (max-width:900px){
+            li{width:calc(33% - 5px) !important;}
+        }
+        @media screen and (max-width:600px){
+            li{width:100% !important;}
+        }
+        *{padding: 0;margin: 0;}
+        ul:after{content:"";display:block;clear:both;}
+        ul{zoom:1;max-width: 1200px;margin: 0 auto;}
+        li{
+            width:calc(20% - 5px);height:auto;
+            padding:50px 0;text-align:center;
+            margin:0 5px 10px 0;font-size:28px;
+            float:left;color:#fff;font-weight:bold;
+            list-style-type:none;
+            cursor: pointer;
+            height: 80px;
+        }
+        li span{
+          font-size: 12px;
+          width: 80%;
+          margin: auto;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          display: block;
+          overflow-wrap: break-word;
+          margin-top: 8px;
+        }
+    </style>
+    </head>
+    <body>
+        <center>
+          <h1>TV配置接口列表（点击复制接口）  </h1>
+           <br>  
+          <h2> <a href="">返回主页</h2> </a> 
+         <br>     
+        </center>
+        <ul id="ul"></ul>
+         <center>
+          <br>    
+         <h2> <a href="">返回主页</h2> </a> 
+         <br> 
+        </center>
+        <script>
+function Toast(msg, duration) {
+  duration = isNaN(duration) ? 3000 : duration;
+  var m = document.createElement('div');
+  m.innerHTML = msg;
+  m.style.cssText = "font-family:siyuan;max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: rgb(255, 255, 255);line-height: 40px;text-align: center;border-radius: 4px;position: fixed;top: 2%;left: 50%;transform: translate(-50%, -50%);z-index: 999999;background: rgba(0, 0, 0,.7);font-size: 16px;";
+  document.body.appendChild(m);
+  setTimeout(function() {
+      var d = 0.5;
+      m.style.webkitTransition = '-webkit-transform ' + d + 's ease-in, opacity ' + d + 's ease-in';
+      m.style.opacity = '0';
+      setTimeout(function() {
+          document.body.removeChild(m)
+      }, d * 1000);
+  }, duration);
 }
+const list = [
+    {
+        "url": "点击复制接口",
+        "name": "🧙多仓接口",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "https://www.gitlink.org.cn/api/leevi0321/apps/raw/room.json?ref=main",
+        "name": "🧙多多多仓",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
+        "name": "🧙欧歌",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "http://ttkx.live:55",
+        "name": "🧙天天开心",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "http://rihou.vip:55",
+        "name": "🧙日后",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "http://jk.itvbox.cc:66/可视TV/云星日记/仓库/api.json",
+        "name": "🧙云星日记",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "https://shorturl.at/qwOZ3",
+        "name": "🧙吾爱多仓",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "http://yuhuahx.com/ZC.json",
+        "name": "🧙恒星多仓",
+        "color": "#48c0a4"
+    },
+    {
+        "url": "https://d.kstore.space/download/5147/无敌仓duoxianlu.json",
+        "name": "🧙无敌多仓",
+        "color": "#48c0a4"
+    },
+   
+    {
+        "url":"https://cyuan.netlify.app/tvbox/duo.json",
+        "name":"🧙多仓",
+        "color":"#48c0a4"
+    },
+    {
+        "color":"#48c0a4",
+        "url":"https://weixine.net/api.json",
+        "name":"🧙运输车多仓"
+        
+    },
+    {
+        "color":"#48c0a4",
+        "url":"https://cf.weixine.net/api.json",
+        "name":"🧙运输车多仓备用"
+        
+    },
+    {
+        "color":"#48c0a4",
+        "url":"",
+        "name":""
+        
+    },
+    {
+        "color":"#48c0a4",
+        "url":"",
+        "name":""
+        
+    },
+        {
+        "url": "",
+        "name": "",
+        "color": "#48c0a4"
+    },
+    {
+        "color":"#91ad70",
+        "url":"点击复制接口",
+        "name":"🧚‍♀️单仓接口"
+        
+    },
+    {
+        "url": "https://龙伊.top",
+        "name": "🧚‍♀️龙伊线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://yydsys.top/duo/ali",
+        "name": "🧚‍♀️阿里精品专线",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://饭太硬.top/tv",
+        "name": "🧚‍♀️饭太硬线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
+        "name": "🧚‍♀️肥猫线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://120.24.204.74:1888/?explorer/share/file&hash=1277MMs1UITPwRkFSiUwxvFZU1UGQqfXHMnKQHeMcexYxjtYy9tydrVYUbsNkOItAw&name=/春盈天下新yy.css",
+        "name": "🧚‍♀️春盈天下",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/XC.json",
+        "name": "🧚‍♀️南风线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://gh.t4tv.hz.cz/newtang.bmp",
+        "name": "🧚‍♀️唐三线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://yuhuahx.com/恒星育华学堂/斧头帮.php",
+        "name": "🧚‍♀️斧头帮线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://proxy.api.030101.xyz/http://fongmi.eu.org/pg/jsm.json",
+        "name": "🧚‍♀️蜂蜜线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://git.sxtv.top/tvys/tvbox/raw/master/TV影视.json",
+        "name": "🧚‍♀️TV影视",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://s2.pub/tvys",
+        "name": "🧚‍♀️真爱T4",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://gitee.com/heng546199810/hxvip8/raw/master/hxvip3.txt",
+        "name": "🧚‍♀️斧头帮专线",
+        "color": "#91ad70"
+    },    
+    {
+        "url": "https://mp-064c2f8f-83e1-4bd3-a4a5-103f278b40df.cdn.bspapp.com/cloudstorage/8b4284f2-4a33-4601-9a04-46c327fe1119.bmp",
+        "name": "🧚‍♀️木鱼儿童",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://pastebin.com/raw/5NHaxyGR",
+        "name": "🧚‍♀️道长线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://tvbox.cainisi.cf",
+        "name": "🧚‍♀️菜妮丝线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://xhww.fun:63/小米/DEMO.json",
+        "name": "🧚‍♀️小米线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://tvbox.王二小放牛娃.xyz",
+        "name": "🧚‍♀️王二小放牛娃",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/leevi/PiG/raw/branch/master/jsm.json",
+        "name": "🧚‍♀️PG线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json",
+        "name": "🧚‍♀️D佬魔改",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://盒子迷.top/春盈天下",
+        "name": "🧚‍♀️盒子迷",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://home.jundie.top:81/top98.json",
+        "name": "🧚‍♀️俊佬线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://shorturl.at/gnw45",
+        "name": "🧚‍♀️吾爱线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/lm317379829/PyramidStore/main/py.json",
+        "name": "🧚‍♀️霜辉月明",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://xhdwc.tk/0",
+        "name": "🧚‍♀️dxawi0线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://我不是.摸鱼儿.top",
+        "name": "🧚‍♀️我不是.摸鱼儿",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+        "name": "🧚‍♀️小苹果线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://raw.liucn.cc/box/m.json",
+        "name": "🧚‍♀️老刘备线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://weixine.net/ysc.json",
+        "name": "🧚‍♀️运输车(有跑马灯)",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/hu/sj/raw/branch/master/520.json",
+        "name": "🧚‍♀️金鹰线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://la.kstore.space/download/2863/01.txt",
+        "name": "🧜‍♂️潇洒线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://mp-064c2f8f-83e1-4bd3-a4a5-103f278b40df.cdn.bspapp.com/cloudstorage/8b4284f2-4a33-4601-9a04-46c327fe1119.bmp",
+        "name": "🧜‍♂️学生专用",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://la.kstore.space/download/2883/0110.txt",
+        "name": "🧜‍♂️蚂蚁论坛线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://jihulab.com/ygbh1/box/-/raw/main/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92",
+        "name": "🧜‍♂️月光宝盒",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2",
+        "name": "🧜‍♂️欧歌线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://itvbox.cc/tvbox/云星日记/1.m3u8",
+        "name": "🧜‍♂️云星日记",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://miaotvs.cn/meow",
+        "name": "🧜‍♂️喵影视线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://源享家.ml/23424",
+        "name": "🧜‍♂️源享家线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://8.210.232.168/xc.json",
+        "name": "🧜‍♂️星辰线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/66666/mao/raw/branch/master/00/000.m3u8",
+        "name": "🧜‍♂️分享者线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ju.binghe.ga/4.txt",
+        "name": "🧜‍♂️冰河线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8",
+        "name": "💎不良帅线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://www.dmtv.ml/mao/single.json",
+        "name": "💎乱世线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/tv-player/tvbox-line/main/tv/fj.json",
+        "name": "💎一影视线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt",
+        "name": "💎佰欣园线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/%E7%94%9C%E8%9C%9C.json",
+        "name": "💎甜蜜线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+        "name": "💎一木线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/kvymin/TV/raw/branch/master/Box.json",
+        "name": "💎kvymin线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/n/b/raw/branch/a/b/c.json",
+        "name": "💎agit/abc线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/mmmgit/tvbox/raw/branch/main/zzz1.json",
+        "name": "💎zzz1线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://szyyds.cn/tv/x.json",
+        "name": "💎小马线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://codeberg.org/Xym/ymz/raw/branch/main/夜猫子",
+        "name": "🏄️夜猫子",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/XiaoYiChaHang/tvbox/main/ysj.json",
+        "name": "🏄️荷城茶秀",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+        "name": "🏄️高天流云",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://agit.ai/cyl518/yl/raw/branch/master/ml.json",
+        "name": "🏄️胖鸭线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "https://freed.yuanhsing.cf/TVBox/meowcf.json",
+        "name": "🏄️元兴线路",
+        "color": "#91ad70"
+    },
+    {
+        "url": "http://xzam.cn/tv",
+        "name": "🏄️小胡线路",
+        "color": "#91ad70"
+    },
+    {"color":"#91ad70","url":"http://120.24.204.74:1888/?explorer/share/file&hash=3e19TeQoIRtyJp2vRxoFuxjquyKnj8QShVDSnnRPIJhhwo27XG0wmNuj_dDh480JRQ&name=/春盈天下新ds.css","name":"🧞春盈天下"},
+    {
+        "url": "",
+        "name": "",
+        "color": "#91ad70"  
+    },
+    {
+        "url": "",
+        "name": "",
+        "color": "#91ad70"  
+    }, 
+    {"color":"#7398Ab",url:"https://cyuan.netlify.app/zy-player/sites2.json",name:"🧞ZY-Player仓库"},
+    {"color":"#7398Ab",url:"https://fastly.jsdelivr.net/gh/ls125781003/dmtg@master/zy.json",name:"🧞裹柳"},
+    {"color":"#7398Ab",url:"https://yydsys.top/x.json",name:"🧞若竹"},
+    {"color":"#7398Ab",url:"https://agit.ai/guot54/ygbh/raw/branch/master/zy.json",name:"🧞薄青"},
+    {"color":"#7398Ab",url:"https://jsd.cdn.zzko.cn/gh/ls125781003/dmtg@master/zy.json",name:"🧞松绿"},
+ 
+  
+];
+$("#ul").html(()=>{
+  let html = "";
+  list.forEach(function (v) {
+    // html+="<li style='background:"+v.color+"'>"+v.name+"<br/>"+v.color+"</li>";
+    html+="<li style='background:"+v.color+"' onclick='copy(this)'><input type=\"hidden\" value='"+v.url+"'>"+v.name+"<br/>"+"<span>"+v.url+"</span>"+"</li>";
+  });
+  return html;
+});
+//复制到剪切板 函数
+function copy(that){
+  $(that).children("input").attr("type","text").select();
+  document.execCommand("Copy"); // 执行浏览器复制命令
+  $(that).children("input").attr("type","hidden");
+  Toast("复制成功",500);
+}
+</script>
+    </body>
+</html>
