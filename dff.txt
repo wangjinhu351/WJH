@@ -108,19 +108,19 @@
     },
     {
       "url": "http://cdn.qiaoji8.com/tvbox.json",
-      "name": "💎无邪┃巧计线路"
+      "name": " 無止境的風┃巧计线路"
     },
     {
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
-      "name": "💎无邪┃潇洒线路"
+      "name": " 無止境的風┃潇洒线路"
     },
     {
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-      "name": "💎无邪┃高天流云线路"
+      "name": " 無止境的風┃高天流云线路"
     },
     {
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-      "name": "💎无邪┃香雅晴线路"
+      "name": " 無止境的風┃香雅晴线路"
     }
   ]
 }
